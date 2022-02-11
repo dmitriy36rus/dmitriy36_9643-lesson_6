@@ -1,0 +1,183 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap");
+@font-face{
+    font-family:"ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Regular.woff2") format("woff2"), url("../fonts/ZenOldMincho-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Bold.woff2") format("woff2"), url("../fonts/ZenOldMincho-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Black.woff2") format("woff2"), url("../fonts/ZenOldMincho-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "Comforter";
+    src:url("../fonts/Comforter-Regular.woff2") format("woff2"), url("../fonts/Comforter-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;	
+}
+body{
+    font-family: "ZenOldMincho", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgba(221, 228, 214, 0.856);
+    
+}
+h1{
+    font-family: "caveat";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 8px yellow;
+    padding: 10px 30px;
+}
+h2{
+    font-family: "caveat";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(9, 46, 252);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(255, 0, 47);
+    padding: 10px 20px;
+}
+h3{
+    font-family: "caveat";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(8, 237, 8);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(250, 199, 208);
+    padding: 10px 20px;
+}
+.image{
+    text-align: center;
+}
+.list1,.list2,.list3{ 
+    margin-bottom: 20px;
+}
+.list1>li{
+    display: inline;
+    color:red;
+    margin-left:70px;
+    margin-right: 50px;
+}
+.list2>li{
+    display: inline;
+    color:rgb(41, 70, 197);
+    margin-left:70px;
+    margin-right: 50px;
+}
+.list3>li{
+    display: inline;
+    color:rgb(198, 24, 214);
+    margin-left:70px;
+    margin-right: 50px;
+}
+.list>li>a{
+    background-color: rgb(229, 238, 52);
+	box-shadow: 0 5px 8px 0 rgb(3, 75, 3);
+    font-size: 20px;
+}
+.text{
+    margin: 50px 30px 40px 25px;
+    max-width: 1600px;
+    min-width: 500px;
+}
+ol{
+    margin: 50px;
+}
+ol>li{
+    color:blue;
+
+}
+.type{
+    font-family: "comforter";
+    font-size: 40px;
+    color:brown;
+}
+.text-object{
+    margin: 10px 10px 50px 5px;
+    text-indent: 30px;
+}
+.footer{
+    text-align: center;
+}
+.lesson{
+    font-family: "caveat";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(151, 179, 28);
+}
+.image-object1{
+    width: 500px;
+}
+.image-object2{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+    color: rgb(255, 0, 68);
+    font-weight: 900;
+}
+.solid{
+    border: 5px solid red;
+}
+.dotted{
+    border: 15px dotted rgb(11, 255, 52);
+}
+.dashed{
+    border: 10px dashed rgb(86, 4, 252);
+}
+.bottom{
+    border-bottom: 8px double rgb(19, 240, 192);
+}
+.radius{
+    border-radius: 30px 40px 20px 10px;
+    box-shadow: 15px 15px 10px 10px #000;
+}
+.radius-inset{
+    box-shadow: inset 25px 15px 20px 10px #444444;
+}
+.out-dotted{
+    outline: 4px dotted rgb(30, 121, 112);
+}
+.opac{
+    opacity: 0.4;
+}
+.hidden{
+    visibility: hidden;
+}
+.wh{
+    text-align: center;
+    height:250px;
+    width: 900px;
+    overflow: scroll;
+}
